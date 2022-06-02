@@ -1,0 +1,213 @@
+@media (min-width: 3000px) {
+    body {
+        background: rgba(195, 20, 50, 0.5);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_3800.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_3800.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (min-width: 1500px) {
+    body {
+        background: rgba(195, 20, 50, 0.5);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_1600.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_1600.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (max-width: 1500px) {
+    .header-content .home-section-header {
+        margin: 1em 0;
+    }
+    p {
+        font-size: 23px;
+    }
+    .floating-scroll-content {
+        right: -695px;
+    }
+    .title-inline {
+        margin: .5em 0;
+    }
+}
+@media (max-width: 1300px) {
+    .floating-scroll-content {
+        right: -625px;
+    }
+    body {
+        background: rgba(195, 20, 50, 0.5);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_1280.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_1280.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (max-width: 1200px) {
+    .floating-scroll-content {
+        right: -575px;
+    }
+}
+@media (max-width: 1100px) {
+    .floating-scroll-content {
+        right: -495px;
+    }
+}
+@media (max-width: 1024px) {
+    .main-menu {
+        position: absolute;
+        left: -150px;
+
+    }
+    body {
+        padding-left: 0;
+    }
+    .header-title {
+        height: 160px;
+        font-size: 38px !important;
+        .cd-words-wrapper {
+            color: $detailingColor;
+            font-size: 44px !important;
+        }
+    }
+    p {
+        font-size: 23px;
+    }
+    .body {
+        padding: 0 25px;
+    }
+    .floating-scroll-content {
+        right: -565px;
+    }
+    .header-title-content {
+        padding: 1em 1em;
+    }
+    .header-location-content {
+        padding: 1em 2em 0 2em;
+    }
+}
+@media (max-width: 950px) {
+    .grid-proyect-container {
+        grid-template-columns: repeat(auto-fill, 180px);
+    }
+    p {
+        font-size: 22px;
+    }
+    .header-title {
+        height: 160px;
+        font-size: 38px !important;
+        .cd-words-wrapper {
+            color: $detailingColor;
+            font-size: 44px !important;
+        }
+    }
+    .floating-scroll-content {
+        right: -405px;
+    }
+    .header-title-content {
+        padding: 1em 1em;
+    }
+    .header-location-content {
+        padding: 1em 2em 0 2em;
+    }
+}
+@media (max-width: 850px) {
+    .floating-scroll-content {
+        right: -365px;
+    }
+    body {
+        background: rgba(195, 20, 50, 0.5);  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_800.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                    url("../../images/bgimage_800.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 750px) {
+    .grid-proyect-container {
+        grid-template-columns: repeat(auto-fill, 180px);
+    }
+    p {
+        font-size: 20px;
+    }
+    .floating-scroll-content {
+        right: -335px;
+    }
+    .header-title-content {
+        padding: 1em 1em;
+    }
+    .header-location-content {
+        padding: 1em 2em 0 2em;
+    }
+}
+@media (max-width: 700px) {
+    .floating-scroll-content {
+        right: -245px;
+    }
+}
+@media (max-width: 650px) {
+    .floating-scroll-content {
+        right: -235px;
+    }
+}
+@media (max-width: 600px) {
+    .floating-scroll-content {
+        right: -185px;
+    }
+}
+@media (max-width: 550px) {
+    .grid-proyect-container {
+        grid-template-columns: repeat(2, 150px);
+    }
+    p {
+        font-size: 19px;
+    }
+    .header-title {
+        font-size: 20px;
+    }
+    .header-title {
+        height: 160px;
+        font-size: 34px !important;
+        .cd-words-wrapper {
+            color: $detailingColor;
+            font-size: 40px !important;
+        }
+    }
+    .floating-scroll-content {
+        right: -125px;
+    }
+}
+@media (max-width: 490px) {
+    .floating-scroll-content {
+        right: -100px;
+    }
+}
+@media (max-width: 450px) {
+    .floating-scroll-content {
+        right: -35px;
+    }
+    body {
+        body {
+            background: rgba(195, 20, 50, 0.5);  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                        url("../../images/bgimage_360.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, rgba(36, 11, 54, 0.5), rgba(195, 20, 50, 0.5)),
+                        url("../../images/bgimage_360.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    }
+}
+@media (max-width: 400px) {
+    /*.floating-scroll-content {
+        display: none;
+    }*/
+}
+@media (min-width: 768px) {
+    .header-title-content {
+        padding: 2em 8em;
+    }
+    .menu-btn {
+        display: none;
+    }
+}

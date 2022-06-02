@@ -1,0 +1,37 @@
+[
+    { 
+        "name": "Juego de Ajedrez", 
+        "path": "/images/ajedrez.jpg",
+        "tools": "Java, HTML, CSS, Javascript.",
+        "description": "El clasico juego de Ajedrez. Puede jugarse con fichas blancas o negras.",
+        "url": "#"
+    },
+    { 
+        "name": "Control de stock",
+        "path": "/images/stock.jpg",
+        "tools": "Java, HTML, CSS, Javascript.",
+        "description": "Herramienta de control de stock para todo tipo de mercaderia. Altamente escalable.",
+        "url": "#"
+    },
+    { 
+        "name": "Juego de Damas",
+        "path": "/images/ajedrez.jpg",
+        "tools": "Java, HTML, CSS, Javascript.",
+        "description": "El clasico juego de Damas.  Puede jugarse con fichas rojas o negras.",
+        "url": "#"
+    },
+    { 
+        "name": "Lista de tareas",
+        "path": "/images/stock.jpg",
+        "tools": "Java, HTML, CSS, Javascript.",
+        "description": "Herramienta para listado y seguimiento de tareas diarias.",
+        "url": "#"
+    },
+    { 
+        "name": "Sistema de conversiones",
+        "path": "/images/stock.jpg",
+        "tools": "Java, HTML, CSS, Javascript.",
+        "description": "Herramienta para realizar conversiones de todo tipo.",
+        "url": "#"
+    }
+]

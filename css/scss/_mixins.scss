@@ -1,0 +1,15 @@
+//En este archivo se definen los diferentes mixins a utilizar en la
+//hojas de estilo, reutilizando codigo y facilitando la tarea
+
+$pFontColor: #909096;
+
+@mixin p-default {
+    display: inline;
+    font-size: 12px;
+    color: $pFontColor;
+    font-style: italic;
+}
+
+@mixin div-half-display {
+    display: inline-block;
+}

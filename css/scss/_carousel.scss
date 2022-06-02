@@ -1,0 +1,18 @@
+.carousel-inner .active.left {
+    left: -33%;
+}
+.carousel-inner .next {
+    left:  33%;
+}
+.carousel-inner .prev {
+    left: -33%;
+}
+.item:not(.prev) {
+    visibility: visible;
+}
+.item.right:not(.prev) {
+    visibility: hidden;
+}
+.rightest {
+    visibility: visible;
+}
