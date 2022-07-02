@@ -17,250 +17,246 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/website.css">
 </head>
 <body id="body">
-
-    <div class="menu-btn">
-        <i class="fas fa-bars fa-2x"></i>
-    </div>
-    <div class="container">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg nav-main">
-            <div class="container-fluid">
-                <!-- Brand -->
-                <img src="images/icons8-javascript.gif" alt="TechNews Logo" class="nav-brand">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <ul class="nav-menu">
-                    <li><a href="#" role="button">Home</a></li>
-                    <li><a href="#" role="button">Sobre mi</a></li>
-                    <li><a href="#" role="button">Skills</a></li>
-                    <li><a href="#" role="button">Experiencia</a></li>
-                    <li><a href="#" role="button">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-        <hr class="nav-main-hr">
-    </div>
-    <div class="showcase-bottom-wave" style="overflow: hidden;" >
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; fill: #141414;">
-            <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" 
-            style="stroke: none;">
-            </path>
-        </svg>
-    </div>
-    <div class="contentbody">
+    <div class="body-wrapper">
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
         <div class="container">
-            <!-- SHOWCASE -->
-            <header class="showcase">
-                <div class="header-title-content col-sm-12 col-xs-12 col-md-12">
-                    <h1 class="header-title">
-                        Hola,
-                        <br/>
-                        soy Fabricio
-                        <br/>
-                        <!-- ROTATING TEXT -->
-                        <span class="cd-words-wrapper typed"></span>
-                    </h1>
-                </div>
-                <div class="header-location-content col-sm-12">
-                    <ul class="list-location list-unstyled">
-                        <li>
-                            <span class="paye">Uruguay</span>
-                            <span class="ville">Canelones - Las Piedras</span>
-                        </li>
+            <!-- Navigation -->
+            <nav id="navbarNav" class="navbar navbar-expand-lg nav-main navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icons8-javascript.gif" alt="Logo web" width="30" height="24" class="nav-brand d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="nav nav-menu">
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Sobre mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Contacto</a></li>
                     </ul>
                 </div>
-                <div class="floating-scroll-content">
-                    <div class='icon-scroll'></div>
-                    <span class="float-scroll-text">Scroll</span>
-                </div>
-            </header>
-            <hr class="nav-main-hr contentbody-hr">
-            <!-- ABOUT ME -->
-            <section class="about-section home-section-header home-section-prev">
-                <div class="title-container">
-                    <h2 class="title-inline about-typed"></h2>
-                </div>
-                <br/>
-                <div class="about-body body">
-                    <p class="p-margin">
-                        Soy desarrollador web, con 2 años de experienca.<br/>
-                        Actualmente trabajando para una empresa dedicada a intranets coorporativas y sitios web de ecommerce.<br/>
-                        Desempeño un rol de fullstack, adquiriendo conocimientos tanto en desarrollo como a nivel de sistemas y base de datos.<br/>
-                        Por más información, puedes visitar mi perfil de linkedin, o contactarme directamente mediante el formulario que deje más abajo.
-                    </p>
-                </div>
-            </section>
-            <hr class="nav-main-hr contentbody-hr">
-            <!-- MY PROJECTS -->
-            <section class="projects-section home-section-header home-section-prev">
-                <div class="title-container">
-                    <h2 class="title-inline project-typed"></h2>
-                </div>
-                <br/>
-                <div class="about-body body">
-                    <p class="p-margin">
-                        A continuacion un pequeño preview de mis principales proyectos.<br/>
-                        En caso de querer ver mas de ellos, puede hacer click en Skills o visitar el siguiente enlace.<br/>
-                        Donde encontrara informacion completa de todos ellos, asi como acceso a sus sitios y repositorios de github.
-                    </p>
-                </div>
-                <div class="grid-proyect-container">
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/ovni500.jpg" alt="Juego de Ajedrez-image">
-                            <div class="project-link overlay">
-                                <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
+            </nav>
+            <hr class="nav-main-hr">
+        </div>
+        <!-- Contentbody -->
+        <div class="contentbody my-5 mb-0">
+            <div class="container px-1 py-4">
+                <!-- SHOWCASE -->
+                <header class="showcase">
+                    <div class="header-title-content col-sm-12 col-xs-12 col-md-12">
+                        <h1 class="header-title">
+                            Hola,
+                            <br/>
+                            soy Fabricio
+                            <br/>
+                            <!-- ROTATING TEXT -->
+                            <span class="cd-words-wrapper typed"></span>
+                        </h1>
                     </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/planeta2.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
+                    <div class="header-location-content col-sm-12">
+                        <ul class="list-location list-unstyled">
+                            <li>
+                                <span class="paye">Uruguay</span>
+                                <span class="ville">Canelones - Las Piedras</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/planeta6.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
+                    <div class="floating-scroll-content">
+                        <div class='icon-scroll'></div>
+                        <span class="float-scroll-text">Scroll</span>
                     </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-image">
-                        <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
-                        <div class="project-link overlay">
-                            <div>
-                                <a href="#" class="link-text">Visitalo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="nav-main-hr contentbody-hr">
-            <!-- Work Section -->
-            <section class="work-section home-section-header" id="work-section">
-                <div class="half-left col-sm-6 col-xs-6 col-md-6">
+                </header>
+                <hr class="nav-main-hr my-4">
+                <!-- ABOUT ME -->
+                <section class="about-section home-section-header home-section-prev">
                     <div class="title-container">
-                        <h2 class="title-inline work-typed"></h2>
+                        <h2 class="title-inline about-typed">Sobre mi</h2>
                     </div>
                     <br/>
-                    <p class="job-description p-margin">
-                        Actualmente trabajo en <b class="job name">Integra America</b>, 
-                        <br/>una empresa de Outsourcing caracterizada principalmente por 
-                        <br/>obtener soluciones a las necesidades del cliente.
-                        <br/>Con amplios conocimientos en Intranets coorporativas.
-                        <br/> Montevideo, Uruguay.
-                    </p>
-                </div>
-                <div class="half-right col-sm-6 col-xs-6 col-md-6">
-                    <div class="website-visit">
-                        <h2 class="job-website">
-                                Si te interesa, visitanos!
-                        </h2>
-                        <a href="https://www.integraamerica.com/" class="website-link">
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
-                    <div class="job-website-box">
-                        <span href="#" class="job-website-link">
-                            <img src="images/IAlogo.png" alt="Integra America" class="job-website-logo">
-                        </span>
-                    </div>
-                </div>
-            </section>
-            <hr class="nav-main-hr contentbody-hr">
-            <!-- Contact Section -->
-            <section class="contact-section home-section-header" id="contact-section">
-                <div class="title-container">
-                    <h2 class="title-inline contact-typed"></h2>
-                </div>
-                <div class="form-content">
-                    <form>
-                        <div class="form-row">
-                            <!-- class: is-valid && is-invalid -->
-                            <div class="col-md-12 col-xs-12 col-xs-12">
-                                <label for="fieldName">Nombre</label>
-                                <input type="text" class="form-control" id="fieldName" placeholder="Ingrese su nombre" value="" required>
-                            </div>
-                            <div class="col-md-12 col-xs-12 col-xs-12">
-                                <label for="fieldMail">Mail</label>
-                                <input type="email" class="form-control" id="fieldMail" placeholder="Ingrese un mail de contact" value="" required>
-                            </div>
-                            <div class="col-md-12 col-xs-12 col-xs-12">
-                                <label for="fieldDesc">Descripcion</label>
-                                <textarea class="form-control" id="fieldDesc" placeholder="Describe el motivo de tu contacto" required>
-                                </textarea>
-                            </div>
-                        </div>
-                        <button class="contact-submit btn-neon" type="submit">Submit form</button>
-                    </form>
-                </div>
-            </section>
-            <hr class="nav-main-hr contentbody-hr">
-            <!-- Footer -->
-            <footer class="footer-section home-section-header">
-                <!-- Follow -->
-                <section class="social">
-                    <p>Mis redes</p>
-                    <div class="links">
-                        <a class="btn-neon" href="https://facebook.com">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn-neon" href="https://twitter.com">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="btn-neon" href="https://linkdin.com">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+                    <div class="about-body body">
+                        <p class="p-margin">
+                            Soy aficionado por el mundo del desarrollo y la tecnología. Con gran interes en adquirir conocimientos que me permitan<br/>
+                            mejorar mis habilidades como desarrollador.
+                            Actualmente me desempeño como desarrollador web, adquiriendo conocimientos tanto en frontend como backend.<br/>
+                            Así como tambien, a nivel de sistemas y bases de datos.<br/>
+                            Por más información, puedes visitar mi perfil de linkedin, o contactarme directamente.
+                        </p>
                     </div>
                 </section>
-            </footer>
+                <hr class="nav-main-hr my-4">
+                <!-- MY PROJECTS -->
+                <section class="projects-section home-section-header py-2">
+                    <div class="title-container">
+                        <h2 class="title-inline project-typed">Mis proyectos</h2>
+                    </div>
+                    <br/>
+                    <div class="about-body body">
+                        <p class="p-margin">
+                            Actualmente me encuentro creando diversos proyectos, con la idea de reforzar mis conocimientos y posteriormente.<br/>
+                            publicarlos en este sitio.<br/>
+                        </p>
+                    </div>
+                    <!-- <div class="grid-proyect-container">
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/ovni500.jpg" alt="Juego de Ajedrez-image">
+                                <div class="project-link overlay">
+                                    <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/planeta2.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/planeta6.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img class="proj-img" src="/images/cosito500.jpg" alt="Juego de Ajedrez-image">
+                            <div class="project-link overlay">
+                                <div>
+                                    <a href="#" class="link-text">Visitalo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </section>
+                <hr class="nav-main-hr my-4">
+                <!-- Work Section -->
+                <section class="work-section home-section-header py-2" id="work-section">
+                    <div class="half-left col-sm-6 col-xs-6 col-md-6">
+                        <div class="title-container">
+                            <h2 class="title-inline work-typed">Trabajo</h2>
+                        </div>
+                        <br/>
+                        <p class="job-description p-margin">
+                            Actualmente trabajo en <b class="job name">Integra America</b>, 
+                            <br/>una empresa de Outsourcing caracterizada principalmente por 
+                            <br/>brindar soluciones a las necesidades del cliente.
+                            <br/>Con amplios conocimientos en Intranets coorporativas y sitios de Ecommerce.
+                            <br/> Montevideo, Uruguay.
+                        </p>
+                    </div>
+                    <div class="half-right col-sm-6 col-xs-6 col-md-6">
+                        <div class="website-visit">
+                            <h2 class="job-website">
+                                    Si te interesa, visitanos!
+                            </h2>
+                            <a href="https://www.integraamerica.com/" class="website-link">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div class="job-website-box">
+                            <span href="#" class="job-website-link">
+                                <img src="images/IAlogo.png" alt="Integra America" class="job-website-logo">
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                <hr class="nav-main-hr my-4">
+                <!-- Contact Section -->
+                <section class="contact-section home-section-header py-2" id="contact-section">
+                    <div class="title-container">
+                        <h2 class="title-inline contact-typed">Contacto</h2>
+                    </div>
+                    <div class="form-content">
+                        <p class="p-margin py-2">
+                            
+                        </p>
+                        <!-- <form>
+                            <div class="form-row">
+                                // class: is-valid && is-invalid //
+                                <div class="col-md-12 col-xs-12 col-xs-12">
+                                    <label for="fieldName">Nombre</label>
+                                    <input type="text" class="form-control" id="fieldName" placeholder="Ingrese su nombre" value="" required>
+                                </div>
+                                <div class="col-md-12 col-xs-12 col-xs-12">
+                                    <label for="fieldMail">Mail</label>
+                                    <input type="email" class="form-control" id="fieldMail" placeholder="Ingrese un mail de contact" value="" required>
+                                </div>
+                                <div class="col-md-12 col-xs-12 col-xs-12">
+                                    <label for="fieldDesc">Descripcion</label>
+                                    <textarea class="form-control" id="fieldDesc" placeholder="Describe el motivo de tu contacto" required>
+                                    </textarea>
+                                </div>
+                            </div>
+                            <button class="contact-submit btn-neon" type="submit">Submit form</button>
+                        </form> -->
+                    </div>
+                </section>
+                <hr class="nav-main-hr my-4">
+                <!-- Footer -->
+                <footer class="footer-section home-section-header">
+                    <!-- Follow -->
+                    <section class="social py-3">
+                        <p>Mis redes</p>
+                        <div class="links">
+                            <a class="btn" href="https://facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn" href="https://twitter.com">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="btn" href="https://linkdin.com">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </section>
+                </footer>
+            </div>
         </div>
     </div>
 </body>
@@ -268,15 +264,6 @@
 <script src="https://kit.fontawesome.com/8a97ab14d2.js" crossorigin="anonymous"></script>
 <!-- Typedjs -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
-<!-- Owl Carousel -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
-integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
-crossorigin="anonymous" referrerpolicy="no-referrer">
-</script> -->
 <!-- Scroll Reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
 <!-- Custom scripts -->

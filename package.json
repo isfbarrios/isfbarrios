@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "blast-text": "^2.0.0"
+    "blast-text": "^2.0.0",
+    "bootstrap": "^5.1.3"
   }
 }
