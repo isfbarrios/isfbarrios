@@ -1,8 +1,9 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
     document.querySelector(".menu-btn").addEventListener("click", () => {
       document.querySelector(".nav-menu").classList.toggle("show");
       document.querySelector(".menu-btn").classList.toggle("open");
+      document.querySelector('.animated-icon1').classList.toggle('open');
       document.querySelector("#body").classList.toggle("no-scroll");
     });
     
