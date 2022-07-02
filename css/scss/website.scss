@@ -592,6 +592,12 @@ hr:not([size]) {
   }
 }
 
+@media(min-width:768px) {
+    .showcase {
+        padding: 0 7em !important;
+    }
+}
+
 @media (max-width: 500px) {
   .news-cards {
     grid-template-columns: 1fr;

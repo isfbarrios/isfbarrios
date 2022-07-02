@@ -23,16 +23,16 @@
     <link rel="stylesheet" href="css/website.css">
 </head>
 <body id="body">
-    <div class="body-wrapper">
+    <div class="body-wrapper container">
         <!-- <div class="menu-btn">
             <i class="fas fa-bars fa-2x"></i>
         </div> -->
-        <div class="container">
+        <div class="container-fluid">
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg nav-main navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="images/icons8-javascript.gif" alt="Logo web" width="30" height="24" class="nav-brand d-inline-block align-text-top">
+                        <img src="images/icons8-javascript.gif" alt="Logo web" width="30" height="24" class="img-fluid nav-brand d-inline-block align-text-top">
                     </a>
                     <!-- Toggler -->
                     <button class="navbar-toggler first-button menu-btn" type="button" aria-label="Toggle navigation">
@@ -43,8 +43,7 @@
                     <ul id="navbarNav" class="nav nav-menu">
                         <li class="nav-item"><a class="nav-link" href="#" role="button">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#" role="button">Sobre mi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" role="button">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" role="button">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" role="button">Trabajo</a></li>
                         <li class="nav-item"><a class="nav-link" href="#" role="button">Contacto</a></li>
                     </ul>
                 </div>
@@ -53,9 +52,9 @@
         </div>
         <!-- Contentbody -->
         <div class="contentbody my-5 mb-0">
-            <div class="container px-1 py-4">
+            <div class="px-1 py-4">
                 <!-- SHOWCASE -->
-                <header class="showcase">
+                <header class="showcase px-1 mt-3">
                     <div class="header-title-content col-sm-12 col-xs-12 col-md-12">
                         <h1 class="header-title">
                             Hola,
@@ -79,7 +78,7 @@
                         <span class="float-scroll-text">Scroll</span>
                     </div>
                 </header>
-                <hr class="nav-main-hr my-4">
+                <hr class="nav-main-hr m-4">
                 <!-- ABOUT ME -->
                 <section class="about-section home-section-header home-section-prev">
                     <div class="title-container">
@@ -96,7 +95,7 @@
                         </p>
                     </div>
                 </section>
-                <hr class="nav-main-hr my-4">
+                <hr class="nav-main-hr m-4">
                 <!-- MY PROJECTS -->
                 <section class="projects-section home-section-header py-2">
                     <div class="title-container">
@@ -176,39 +175,41 @@
                         </div>
                     </div> -->
                 </section>
-                <hr class="nav-main-hr my-4">
+                <hr class="nav-main-hr m-4">
                 <!-- Work Section -->
                 <section class="work-section home-section-header py-2" id="work-section">
-                    <div class="half-left col-sm-6 col-xs-6 col-md-6">
-                        <div class="title-container">
-                            <h2 class="title-inline work-typed">Trabajo</h2>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6 col-md-6">
+                            <div class="title-container">
+                                <h2 class="title-inline work-typed">Trabajo</h2>
+                            </div>
+                            <br/>
+                            <p class="job-description p-margin">
+                                Actualmente trabajo en <b class="job name">Integra America</b>, 
+                                <br/>una empresa de Outsourcing caracterizada principalmente por 
+                                <br/>brindar soluciones a las necesidades del cliente.
+                                <br/>Con amplios conocimientos en Intranets coorporativas y sitios de Ecommerce.
+                                <br/> Montevideo, Uruguay.
+                            </p>
                         </div>
-                        <br/>
-                        <p class="job-description p-margin">
-                            Actualmente trabajo en <b class="job name">Integra America</b>, 
-                            <br/>una empresa de Outsourcing caracterizada principalmente por 
-                            <br/>brindar soluciones a las necesidades del cliente.
-                            <br/>Con amplios conocimientos en Intranets coorporativas y sitios de Ecommerce.
-                            <br/> Montevideo, Uruguay.
-                        </p>
-                    </div>
-                    <div class="half-right col-sm-6 col-xs-6 col-md-6">
-                        <div class="website-visit">
-                            <h2 class="job-website">
-                                    Si te interesa, visitanos!
-                            </h2>
-                            <a href="https://www.integraamerica.com/" class="website-link">
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                        <div class="job-website-box">
-                            <span href="#" class="job-website-link">
-                                <img src="images/IAlogo.png" alt="Integra America" class="job-website-logo">
-                            </span>
+                        <div class="col-sm-6 col-xs-6 col-md-6">
+                            <div class="website-visit">
+                                <h2 class="job-website">
+                                        Si te interesa, visitanos!
+                                </h2>
+                                <a href="https://www.integraamerica.com/" class="website-link">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <div class="job-website-box">
+                                <span href="#" class="job-website-link">
+                                    <img src="images/IAlogo.png" alt="Integra America" class="job-website-logo">
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </section>
-                <hr class="nav-main-hr my-4">
+                <hr class="nav-main-hr m-4">
                 <!-- Contact Section -->
                 <section class="contact-section home-section-header py-2" id="contact-section">
                     <div class="title-container">
@@ -239,7 +240,7 @@
                         </form> -->
                     </div>
                 </section>
-                <hr class="nav-main-hr my-4">
+                <hr class="nav-main-hr m-4">
                 <!-- Footer -->
                 <footer class="footer-section home-section-header">
                     <!-- Follow -->
