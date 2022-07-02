@@ -12,7 +12,7 @@ $(document).ready(function() {
     ScrollReveal().reveal('.cards-banner-one', { delay: 500 });
     ScrollReveal().reveal('.cards-banner-two', { delay: 500 });
     ScrollReveal().reveal('.about-section', { delay: 500 });
-    ScrollReveal().reveal('.project-section', { delay: 500 });
+    ScrollReveal().reveal('.projects-section', { delay: 500 });
     ScrollReveal().reveal('.work-section', { delay: 500 });
     ScrollReveal().reveal('.contact-section', { delay: 500 });
 
