@@ -118,7 +118,7 @@ $(document).ready(function() {
   );
     
     /************** EFECTO BLAST INI **************/
-    //blasting headinga
+    //blasting heading
     $("h1").blast({
       delimiter: "character",
       tag: "span"
